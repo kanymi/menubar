@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar{
+    border: 1px solid black;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+#links{
+    display: inline;
+}
+#navbar #links a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    opacity: .70;
+    transition: 0.2s;
+}
+#navbar #links a:hover{opacity: 1; transition: 0.4s;}
+#yt{background-color: rgb(219, 132, 132); color:white;}
+#fb{background-color: rgb(164, 213, 237); color:white;}
+#dc{background-color: rgb(173, 173, 245); color:rgb(255, 255, 255);}
+#rd{background-color: rgb(242, 175, 141); color:white;}
+#x{background-color: rgb(169, 220, 226); color:rgb(255, 255, 255);}
+.rounded{border-radius: 5px;}
