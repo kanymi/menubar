@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 *{
     padding: 0px;
     margin: 0px;
@@ -28,4 +29,34 @@
 #dc{background-color: rgb(173, 173, 245); color:rgb(255, 255, 255);}
 #rd{background-color: rgb(242, 175, 141); color:white;}
 #x{background-color: rgb(169, 220, 226); color:rgb(255, 255, 255);}
-.rounded{border-radius: 5px;}
+.rounded{border-radius: 0px;}
+.banner{
+    background-image: url('coffee.png');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+    width: 100vw;
+    height: 650px;
+}
+.banner h2{
+    font-family: 'Young Serif', serif;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    text-shadow:1px 1px black;
+}
+.banner h2 span{
+    color: rgb(236, 155, 79)
+}
+.banner p{
+    font-family: 'Young Serif', serif;
+    color: rgb(236, 116, 79) 
+}
+.banner a{
+    font-family: 'Young Serif', serif;
+    text-transform: uppercase;
+    background-color: rgb(236, 155, 79);
+    color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
